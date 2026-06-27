@@ -5,7 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: azure;">
+    <h2 style="text-align: center; color: rgb(64, 62, 221);">IT Service Ticket Form</h2>
+    <p style="text-align: center; color: royalblue;">Please provide the details of the problem</p>
+    <hr>
+    <table border="0" style="width: 100%;">
+        <tr>
+            <td style="color: blue;">Time  :</td>
+            <td><input type="time" placeholder="HH:MM" style="border-color: rgba(6, 6, 241, 0.862); border-radius: 50px; padding: 10px;"></td>
+        </tr>
+        <tr>
+            <td style="color: blue;">Date :</td>
+            <td><input type="date" placeholder="YYYY-MM-DD" style="border-color: rgba(6, 6, 241, 0.862); border-radius: 50px; padding: 10px;"></td>
+        </tr>
+        <tr>
+            <td style="color: blue;">First Name :</td>
+            <td><input type="text" placeholder="Enter your first name" style="border-color: rgba(6, 6, 241, 0.862); border-radius: 50px; padding: 10px;"></td>
+        </tr>
+        <tr>
+            <td style="color: blue;">Last Name :</td>
+            <td><input type="text" placeholder="Enter your last name" style="border-color: rgba(6, 6, 241, 0.862); border-radius: 50px; padding: 10px;"></td>
+        </tr>
+        <tr>
+            <td style="color: blue;"> Male : <input type="radio" name="gender" value="male"></td>
+            <td style="color: blue;"> Female : <input type="radio" name="gender" value="male"></td>
+        <tr>
+            <td style="color: blue;">Email :</td>
+            <td><input type="email" placeholder="Enter your email" style="border-color: rgba(6, 6, 241, 0.862); border-radius: 50px; padding: 10px;"></td>
+        </tr>
+        <tr>
+            <td style="color: blue;">Phone Number :</td>
+            <td><input type="text" placeholder="Enter your phone number" style="border-color: rgba(6, 6, 241, 0.862);border-radius: 50px; padding: 10px;"></td>
+        </tr>
+        <tr>
+            <td style="color: blue;">Location :</td>
+            <td><input type="text" placeholder="Enter your location" style="border-color: rgba(6, 6, 241, 0.862); border-radius: 50px; padding: 10px;"></td>
+        </tr>
+        <tr>
+            <td style="color: blue;">Department :</td>
+            <td><select name="" id="" style="border-color: rgba(6, 6, 241, 0.862); border-radius: 50px; padding: 10px;">
+                <option value="">Select Department</option>
+                <option value="it">IT</option>
+                <option value="hr">HR</option>
+                <option value="finance">Finance</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td style="color: blue;">Problem Description :</td>
+            <td><textarea name="" id="" cols="33" rows="10" placeholder="Describe the problem" style="border-color: rgba(6, 6, 241, 0.862); border-radius: 50px; padding: 10px;"></textarea></td>
+        </tr>
+    </table>
+    
+    <hr style="color: blue;">
+    <input type="submit" value="Submit" style="background-color: blue; color: white; padding: 10px 20px; border: none; cursor: pointer;">
+    
     
 </body>
 </html>
